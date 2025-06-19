@@ -6,7 +6,6 @@ const Header = () => {
     <div
       className="bg-white w-full"
       style={{ boxShadow: "inset 0px -1px 0px 0px #E0E0E0" }}>
-
       <header className="relative flex items-center mx-auto pt-[18px] lg:pt-[24px] pr-[20px] lg:pr-[370px] pb-[18px] lg:pb-[24px] pl-[20px] lg:pl-[370px] max-w-[375px] lg:max-w-[1920px]">
         <div className="lg:hidden">
           <BurgerMenu />
@@ -46,13 +45,12 @@ const Header = () => {
             <option value="AudioCall">AudioCall Game</option>
           </select>
         </nav>
-
+      </header>
       <header className="flex justify-between items-center m-auto mx-auto pt-[18px] pr-[20px] pb-[18px] pl-[20px] max-w-[375px]">
         <BurgerMenu />
         <h1 className="flex-grow font-extrabold text-black text-center">
           GlobalTalk
         </h1>
-
       </header>
     </div>
   );
