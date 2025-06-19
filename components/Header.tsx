@@ -46,12 +46,6 @@ const Header = () => {
           </select>
         </nav>
       </header>
-      <header className="flex justify-between items-center m-auto mx-auto pt-[18px] pr-[20px] pb-[18px] pl-[20px] max-w-[375px]">
-        <BurgerMenu />
-        <h1 className="flex-grow font-extrabold text-black text-center">
-          GlobalTalk
-        </h1>
-      </header>
     </div>
   );
 };
