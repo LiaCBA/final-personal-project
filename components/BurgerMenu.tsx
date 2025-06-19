@@ -9,7 +9,7 @@ const BurgerMenu = () => {
   return (
     <div className="md:hidden">
       <button
-        className="relative w-8 h-8 z-50 flex flex-col justify-center items-center"
+        className="z-50 relative flex flex-col justify-center items-center w-8 h-8"
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Toggle menu">
         <span
@@ -30,7 +30,7 @@ const BurgerMenu = () => {
       </button>
 
       {isOpen && (
-        <div className="fixed top-0 left-0 w-[375px] h-full bg-white flex flex-col items-center justify-center gap-8 text-xl z-40 transition-all duration-300">
+        <div className="top-0 left-0 z-40 fixed flex flex-col justify-center items-center gap-8 bg-white w-full h-full text-xl transition-all duration-300">
           <Link
             href="/"
             onClick={() => setIsOpen(false)}
